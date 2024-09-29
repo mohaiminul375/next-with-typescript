@@ -16,7 +16,7 @@ const getPosts = async (): Promise<Post[]> => {
 
 const page = async () => {
   const posts = await getPosts();
-  console.log(posts);
+  // console.log(posts);
 
   return (
     <section className="md:max-w-7xl mx-auto">
